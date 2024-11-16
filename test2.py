@@ -1,3 +1,3 @@
-from datetime import datetime
+import time
 
-print(datetime.ctime)
+print(time.ctime())
