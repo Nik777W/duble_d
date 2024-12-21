@@ -29,3 +29,29 @@ for i in stdin.readlines():
 for i in sorted(d):
     print(i, end=': ')
     print(*sorted(d[i]), sep=', ')
+
+
+# TECT__1
+
+# <p><a href="https://stepik.org">Stepik</a></p>
+# <div class="catalog"><a href="https://stepik.org/catalog">Study hard. Teach harder</a></div>
+
+# OТВЕТ:
+# a: href
+# div: class
+# p:
+
+# TECT__2
+# <div id="oldie-warning" class="do-not-print">
+#     <p>
+#         <strong>Notice:</strong> Your browser is <em>ancient</em>. Please
+#         <a href="http://browsehappy.com/">upgrade to a different browser</a> to experience a better web.
+#     </p>
+# </div>
+
+# OТВЕТ:
+# a: href
+# div: class, id
+# em:
+# p:
+# strong:
